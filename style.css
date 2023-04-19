@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'android';
+    src: url('./fonte/idroid.otf');
+}
+
+#box{
+    font-family: 'android';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+form{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column; 
+    width: 773px;
+}
+h2{
+    text-align: center;
+}
+label{
+    margin-left: 8%;
+}
+input{
+    font-family: 'android';
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+}
+input:focus{
+    outline-color: cornflowerblue;
+}
+
+.enviar{
+    font-family: 'android';
+    margin: 0 auto;
+    margin-bottom: 28px;
+    width: 35%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+#resultados{
+    font-family: 'android';
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit:contain;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 70%;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px black;
+    background-color:rgba(100, 148, 237, 0.609);
+}  
+p{
+    margin-top: 0;
+}
+h3{
+    margin-bottom: 0;
+    margin-top: 0;
+} 
+img{
+    max-width: 80%;
+}
